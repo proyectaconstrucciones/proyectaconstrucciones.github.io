@@ -748,5 +748,7 @@ if (!ig.children.length) document.getElementById("instagram").style.display = "n
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add("visible"); io.unobserve(e.target); } }), {threshold:.12});
 document.querySelectorAll(".revelar").forEach(el => io.observe(el));
 </script>
+<!-- Cloudflare Web Analytics: visitas sin cookies ni datos personales -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3837045f6bb64d1abbf760f7f981b062"}'></script>
 </body>
 </html>
